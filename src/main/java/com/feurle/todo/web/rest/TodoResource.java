@@ -23,7 +23,8 @@ public class TodoResource {
 
     /**
      * Using the constructor is another way (and preferred way) to inject the repository in this class.
-     * Another option is not to use the constructor - instead you can to that with the @Autowired annotation.
+     * Another option is not to use the constructor - instead you can do that with the @Autowired annotation.
+     *
      * @param todoRepository - the repository to inject/instantiate into this controller class.
      */
     public TodoResource(TodoRepository todoRepository) {
