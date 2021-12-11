@@ -1,3 +1,3 @@
-create database todo;
-create user 'todouser'@'%' identified by 'secret';
-grant all on todo.* to 'todouser'@'%';
+create database stocks;
+create user 'stocksuser'@'%' identified by 'stockspwd';
+grant all on stocks.* to 'stocksuser'@'%';

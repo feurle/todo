@@ -1,4 +1,4 @@
-package com.feurle.todo.web.rest;
+package com.feurle.todo.web.api;
 
 import com.feurle.todo.model.Todo;
 import com.feurle.todo.repository.TodoRepository;
@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@RequestMapping("/api")
 public class TodoResource {
 
     // set to private final to instantiate the repository in the constructor
